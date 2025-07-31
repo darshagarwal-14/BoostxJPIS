@@ -1,0 +1,21 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5faff;
+}
+.leaderboard {
+  max-width: 500px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+ol {
+  list-style: none;
+  padding: 0;
+}
+ol li {
+  background: #e6f7ff;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+}

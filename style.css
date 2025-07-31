@@ -1,0 +1,160 @@
+/* ==== RESET + BASE ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5faff;
+  color: #333;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ==== HEADER ==== */
+.hero {
+  background: linear-gradient(to right, #0099ff, #00c2ff);
+  text-align: center;
+  padding: 4rem 1.5rem;
+  color: #fff;
+}
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.tagline {
+  font-size: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.btn {
+  padding: 0.75rem 1.75rem;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+.btn.primary {
+  background-color: #fff;
+  color: #0099ff;
+}
+.btn.primary:hover {
+  background-color: #e0f7ff;
+}
+.btn.secondary {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.btn.secondary:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* ==== INTRO SECTION ==== */
+.intro {
+  padding: 3rem 2rem;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.intro p {
+  font-size: 1.1rem;
+}
+
+/* ==== FEATURES SECTION ==== */
+.features {
+  background-color: #e6f7ff;
+  padding: 3rem 2rem;
+}
+.section-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.feature-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 300px;
+  text-align: center;
+}
+.feature-card h3 {
+  font-size: 1.25rem;
+  color: #0099ff;
+  margin-bottom: 0.5rem;
+}
+
+/* ==== HOW IT WORKS ==== */
+.how-it-works {
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: auto;
+}
+.how-it-works ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  font-size: 1.1rem;
+}
+.how-it-works li {
+  margin-bottom: 1rem;
+}
+
+/* ==== QUOTE SLIDER ==== */
+.quote-slider {
+  background-color: #00c2ff;
+  color: #fff;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.quote-slider blockquote {
+  font-style: italic;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+/* ==== FOOTER ==== */
+.site-footer {
+  background-color: #0099ff;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.95rem;
+}
+
+/* ==== RESPONSIVE ==== */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2.5rem;
+  }
+  .btn {
+    font-size: 0.95rem;
+    padding: 0.6rem 1.2rem;
+  }
+  .features-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
